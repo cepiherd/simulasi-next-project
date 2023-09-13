@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"]{
+  @apply border w-full mb-2 py-4;
+}
+
+button { 
+  @apply py-2 w-full text-white;
+}
